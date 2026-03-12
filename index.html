@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Platform Bangladesh - Software, Web Apps & AI Agents</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">
+                <i class="bi bi-code-square"></i> IT Platform BD
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-light ms-2" href="/login.html">Login</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-2" href="/dashboard.html">Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4">Transform Your Business with <span class="text-primary">AI-Powered Solutions</span></h1>
+                    <p class="lead mb-4">Professional software development, web applications, and AI agents to accelerate your digital transformation.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#services" class="btn btn-primary btn-lg">Explore Services</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">Get Started</a>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row g-4">
+                            <div class="col-4">
+                                <h3 class="fw-bold text-primary">500+</h3>
+                                <p class="text-muted">Projects Delivered</p>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="fw-bold text-primary">200+</h3>
+                                <p class="text-muted">Happy Clients</p>
+                            </div>
+                            <div class="col-4">
+                                <h3 class="fw-bold text-primary">24/7</h3>
+                                <p class="text-muted">AI Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Technology" class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Our Services</h2>
+                <p class="lead text-muted">Comprehensive IT solutions tailored to your needs</p>
+            </div>
+            <div class="row g-4" id="servicesContainer">
+                <!-- Services will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Featured Products</h2>
+                <p class="lead text-muted">Ready-to-use software and AI solutions</p>
+            </div>
+            <div class="row g-4" id="productsContainer">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold">Why Choose Us</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="bi bi-rocket-takeoff text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h4>Fast Delivery</h4>
+                            <p class="text-muted">Quick turnaround times without compromising quality</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="bi bi-shield-check text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h4>Secure & Reliable</h4>
+                            <p class="text-muted">Enterprise-grade security for all solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="bi bi-headset text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h4>24/7 Support</h4>
+                            <p class="text-muted">AI-powered support available round the clock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team" class="img-fluid rounded-4 shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About IT Platform Bangladesh</h2>
+                    <p class="lead mb-4">We are a leading technology company specializing in custom software development, web applications, and AI-powered solutions.</p>
+                    <p class="mb-4">Our team of experts combines cutting-edge technology with industry best practices to deliver solutions that drive business growth and digital transformation.</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Expert Development Team</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Agile Methodology</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Quality Assurance</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Ongoing Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-4">Get In Touch</h2>
+                    <p class="lead mb-4">Ready to start your project? Contact us today for a free consultation.</p>
+                    <div class="mb-3">
+                        <i class="bi bi-envelope me-2"></i> info@itpbd.com
+                    </div>
+                    <div class="mb-3">
+                        <i class="bi bi-telephone me-2"></i> +880 1234-567890
+                    </div>
+                    <div class="mb-3">
+                        <i class="bi bi-geo-alt me-2"></i> Dhaka, Bangladesh
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-youtube" style="font-size: 1.5rem;"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram" style="font-size: 1.5rem;"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm" class="bg-light p-4 rounded-4 text-dark">
+                        <h4 class="mb-3">Send us a message</h4>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="fullName" placeholder="Full Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 IT Platform Bangladesh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
