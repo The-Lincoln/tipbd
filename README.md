@@ -1,4 +1,4 @@
-# IT Platform Bangladesh
+# Social Commission IT Platform Bangladesh
 
 A comprehensive online platform for selling software, web applications, and AI agents with a full-featured team dashboard for managing workflow, CRM, scheduling, content publishing, and lead generation.
 
